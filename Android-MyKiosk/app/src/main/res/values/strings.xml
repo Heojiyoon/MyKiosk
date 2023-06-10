@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MyLoginApp</string>
+
+        <string-array name="store_name">
+            <item>이디야</item>
+            <item>맥도날드</item>
+            <item>스타벅스</item>
+            <item>커피나무</item>
+            <item>버거킹</item>
+            <item>롯데리아</item>
+            <item>배스킨라빈스</item>
+            <item>gs25</item>
+            <item>메가커피</item>
+        </string-array>
+
+        <string-array name="store_description">
+            <item>서울시 공릉동 태릉입구점</item>
+            <item>서울시 공릉동 태릉입구점</item>
+            <item>서울시 공릉동 태릉입구점</item>
+            <item>서울시 공릉동 태릉입구점</item>
+            <item>현재위치에서 500m</item>
+            <item>현재위치에서 500m</item>
+            <item>현재위치에서 500m</item>
+            <item>현재위치에서 500m</item>
+            <item>현재위치에서 500m</item>
+
+        </string-array>
+    </resources>

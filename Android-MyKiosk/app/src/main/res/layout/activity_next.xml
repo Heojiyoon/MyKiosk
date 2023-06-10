@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".NextActivity">
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:insetLeft="20dp"
+        android:insetTop="6dp"
+        android:insetRight="20dp"
+        android:insetBottom="20dp"
+        android:text="주문하기"
+        android:textSize="34sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:insetLeft="20dp"
+            android:insetTop="20dp"
+            android:insetRight="20dp"
+            android:text="자주 먹는 메뉴"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/voiceButton"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:insetLeft="20dp"
+            android:insetTop="20dp"
+            android:insetRight="20dp"
+            android:text="음성 인식"
+            android:textSize="34sp" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ico_mic" />
+
+</LinearLayout>
